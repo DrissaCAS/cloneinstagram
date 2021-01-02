@@ -46,16 +46,24 @@ body{
     flex-direction: column;
     background-color: #ffffff;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.3rem;
     border: 1px solid lightgray;
 }
 .group:nth-child(1){
     min-height: 19rem;
 }
-.insta-login{
-    align-items: center;
-    display: block;
-    flex-direction: column;
+.group input{
+    width: 100%;
+    border: 1px solid #8e8eab;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+.group a{
+    width: 100%;
+    text-align: center;
 }
 .instagram-logo{
     height: 3rem;
